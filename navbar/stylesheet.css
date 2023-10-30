@@ -1,0 +1,67 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.namaAwal {
+  color: rgb(255, 0, 0);
+}
+
+.namaAkhir {
+  color: rgb(244, 244, 244);
+}
+
+.Merek {
+  display: flex;
+  flex-direction: row;
+  font-size: 40px;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  color: white;
+  padding-right: 18px;
+}
+
+.navigasi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.navigasi > li {
+  list-style-type: none;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.navigasi > li > a:hover {
+  color: red;
+  transition: all 0.5 ease-in-out;
+}
+
+.navigasi > li > a {
+  text-decoration: none;
+  color: white;
+}
